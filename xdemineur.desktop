@@ -9,5 +9,5 @@ Comment[tr]=Mayın tarlası oyunu
 Icon=xdemineur.png
 Exec=xdemineur
 Type=Application
-Terminal=0
+Terminal=false
 # vi: encoding=utf-8
