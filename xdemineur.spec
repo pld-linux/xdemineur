@@ -7,7 +7,7 @@ Summary(pt_BR):	Jogo Minesweeper
 Summary(tr):	Mayýn tarlasý oyunu
 Name:		xdemineur
 Version:	2.1.1
-Release:	8
+Release:	9
 License:	MIT
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
@@ -62,11 +62,11 @@ xmkmf -a
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_applnkdir}/Games/Board,%{_pixmapsdir}}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install install.man
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games/Board
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -76,5 +76,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/xdemineur
 %{_mandir}/man1/xdemineur.*
-%{_applnkdir}/Games/Board/xdemineur.desktop
+%{_desktopdir}/xdemineur.desktop
 %{_pixmapsdir}/*
