@@ -5,8 +5,6 @@ Version:	2.1.1
 Release:	6
 License:	MIT
 Group:		X11/Applications/Games
-Group(de):	X11/Applikationen/Spiele
-Group(pl):	X11/Aplikacje/Gry
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
