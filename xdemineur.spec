@@ -11,6 +11,7 @@ Release:	7
 License:	MIT
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
+# Source0-md5:	733daa1db17ed8025186236817c013f7
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 BuildRequires:	XFree86-devel
