@@ -58,7 +58,9 @@ alan tüm mayýnlarý bulmanýz amaçlanmaktadýr.
 
 %build
 xmkmf -a
-%{__make} CC="%{__cc}" CFLAGS="%{rpmcflags} -D_GNU_SOURCE"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -D_GNU_SOURCE"
 
 %install
 rm -rf $RPM_BUILD_ROOT
