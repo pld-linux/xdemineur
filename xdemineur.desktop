@@ -11,4 +11,5 @@ Icon=xdemineur.png
 Exec=xdemineur
 Type=Application
 Terminal=false
+Categories=Game;BoardGame;
 # vi: encoding=utf-8
