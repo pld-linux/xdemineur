@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=XDemineur
+Comment[de]=Minesweeper-Game
+Comment[es]=Juego Minesweeper
+Comment[fr]=Jeu de démineur
+Comment[pl]=Gra "Saper" dla X Window System
+Comment[pt]=Jogo Minesweeper
+Comment[tr]=Mayýn tarlasý oyunu
+Icon=xdemineur.png
+Exec=xdemineur
+Type=Application
+Terminal=0
+# vi: encoding=utf-8
