@@ -2,7 +2,7 @@ Summary:	A Minesweeper game for the X Window System
 Summary(pl):	Gra "Saper" dla X Window System
 Name:		xdemineur
 Version:	2.1.1
-Release:	6
+Release:	7
 License:	MIT
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
