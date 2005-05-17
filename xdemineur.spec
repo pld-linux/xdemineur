@@ -7,7 +7,7 @@ Summary(pt_BR):	Jogo Minesweeper
 Summary(tr):	Mayýn tarlasý oyunu
 Name:		xdemineur
 Version:	2.1.1
-Release:	9
+Release:	10
 License:	MIT
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
