@@ -7,18 +7,19 @@ Summary(pt_BR):	Jogo Minesweeper
 Summary(tr):	Mayýn tarlasý oyunu
 Name:		xdemineur
 Version:	2.1.1
-Release:	10
+Release:	11
 License:	MIT
 Group:		X11/Applications/Games
 Source0:	ftp://ftp.x.org/contrib/games/%{name}-%{version}.tar.gz
 # Source0-md5:	733daa1db17ed8025186236817c013f7
 Source1:	%{name}.desktop
 Source2:	%{name}.png
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-cf-files
+BuildRequires:	xorg-lib-libXext-devel
+BuildRequires:	xorg-lib-libXpm-devel
+BuildRequires:	xorg-util-gccmakedep
+BuildRequires:	xorg-util-imake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Xdemineur is a Minesweeper game for the X Window System. The object of
@@ -66,7 +67,10 @@ xmkmf -a
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT install install.man
+%{__make} install install.man \
+	DESTDIR=$RPM_BUILD_ROOT \
+	BINDIR=%{_bindir} \
+	MANDIR=%{_mandir}/man1
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
