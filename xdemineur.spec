@@ -1,10 +1,10 @@
 Summary:	A Minesweeper game for the X Window System
-Summary(de.UTF-8):   Minesweeper-Game
-Summary(es.UTF-8):   Juego Minesweeper
-Summary(fr.UTF-8):   Jeu de démineur
-Summary(pl.UTF-8):   Gra "Saper" dla X Window System
-Summary(pt_BR.UTF-8):   Jogo Minesweeper
-Summary(tr.UTF-8):   Mayın tarlası oyunu
+Summary(de.UTF-8):	Minesweeper-Game
+Summary(es.UTF-8):	Juego Minesweeper
+Summary(fr.UTF-8):	Jeu de démineur
+Summary(pl.UTF-8):	Gra "Saper" dla X Window System
+Summary(pt_BR.UTF-8):	Jogo Minesweeper
+Summary(tr.UTF-8):	Mayın tarlası oyunu
 Name:		xdemineur
 Version:	2.1.1
 Release:	11
