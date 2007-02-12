@@ -1,10 +1,10 @@
 Summary:	A Minesweeper game for the X Window System
-Summary(de):	Minesweeper-Game
-Summary(es):	Juego Minesweeper
-Summary(fr):	Jeu de démineur
-Summary(pl):	Gra "Saper" dla X Window System
-Summary(pt_BR):	Jogo Minesweeper
-Summary(tr):	Mayın tarlası oyunu
+Summary(de.UTF-8):   Minesweeper-Game
+Summary(es.UTF-8):   Juego Minesweeper
+Summary(fr.UTF-8):   Jeu de dÃ©mineur
+Summary(pl.UTF-8):   Gra "Saper" dla X Window System
+Summary(pt_BR.UTF-8):   Jogo Minesweeper
+Summary(tr.UTF-8):   MayÄ±n tarlasÄ± oyunu
 Name:		xdemineur
 Version:	2.1.1
 Release:	11
@@ -26,33 +26,33 @@ Xdemineur is a Minesweeper game for the X Window System. The object of
 the game is to find the mines and place little flags on them, before
 you stumble across a mine and get blown up.
 
-%description -l de
+%description -l de.UTF-8
 Ein Spiel, das intensivste Konzentration erfordert, in dem Sie die
 Standorte von Minen durch logisches, deduktives Denken herausfinden
-müssen.
+mÃ¼ssen.
 
-%description -l es
-Este es un juego de intensa concentración, donde debes con éxito
-determinar los locales de las minas a través de lógica y deducción.
-Muy parecido con la versión Windows.
+%description -l es.UTF-8
+Este es un juego de intensa concentraciÃ³n, donde debes con Ã©xito
+determinar los locales de las minas a travÃ©s de lÃ³gica y deducciÃ³n.
+Muy parecido con la versiÃ³n Windows.
 
-%description -l fr
-Jeu d'une concentration extrême, où vous devez déterminer les
-emplacements des mines en utilisant la logique et la déduction.
+%description -l fr.UTF-8
+Jeu d'une concentration extrÃªme, oÃ¹ vous devez dÃ©terminer les
+emplacements des mines en utilisant la logique et la dÃ©duction.
 
-%description -l pl
+%description -l pl.UTF-8
 Xdemineur to gra "Saper" dla X Window System. Celem gry jest
-odnalezienie wszystkich min i oznaczenie ich flagami, unikaj±c
-nast±pienia na minê i wysadzenia w powietrze.
+odnalezienie wszystkich min i oznaczenie ich flagami, unikajÄ…c
+nastÄ…pienia na minÄ™ i wysadzenia w powietrze.
 
-%description -l pt_BR
-Este é um jogo de intensa concentração, onde você deve com sucesso
-determinar os locais das minas através de lógica e dedução. Muito
-parecido com a versão Windows.
+%description -l pt_BR.UTF-8
+Este Ã© um jogo de intensa concentraÃ§Ã£o, onde vocÃª deve com sucesso
+determinar os locais das minas atravÃ©s de lÃ³gica e deduÃ§Ã£o. Muito
+parecido com a versÃ£o Windows.
 
-%description -l tr
-Komşu karelerde yer alan mayın sayılarından yararlanarak tarlada yer
-alan tüm mayınları bulmanız amaçlanmaktadır.
+%description -l tr.UTF-8
+KomÅŸu karelerde yer alan mayÄ±n sayÄ±larÄ±ndan yararlanarak tarlada yer
+alan tÃ¼m mayÄ±nlarÄ± bulmanÄ±z amaÃ§lanmaktadÄ±r.
 
 %prep
 %setup -q
