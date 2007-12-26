@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=XDemineur
 Comment[de]=Minesweeper-Game
 Comment[es]=Juego Minesweeper
@@ -7,7 +6,7 @@ Comment[fr]=Jeu de démineur
 Comment[pl]=Gra "Saper" dla X Window System
 Comment[pt]=Jogo Minesweeper
 Comment[tr]=Mayın tarlası oyunu
-Icon=xdemineur.png
+Icon=xdemineur
 Exec=xdemineur
 Type=Application
 Terminal=false
